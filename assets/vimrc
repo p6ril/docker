@@ -1,0 +1,23 @@
+set nu
+syntax enable
+filetype on
+set encoding=utf-8
+set fileencoding=utf-8
+set expandtab
+set softtabstop=2
+set autoindent
+set shiftwidth=2
+set cpoptions+=$
+set incsearch
+set hlsearch
+set matchpairs+=<:>
+set showmatch
+set cursorline
+set laststatus=2
+set statusline=%f\ -\ FileType:\ %y\ %r\ %m\ Enc:\ [%{&fileencoding?&fileencoding:&encoding}]\ Buf:\ %-2n\ Line:\ %3l/%-3L\ (%1.3p%%)\ Col:\ %-3c\ Char:\ [%3b][Ox%B]
+set showcmd
+set wildmenu
+set ruler
+set lazyredraw
+set background=dark
+filetype plugin on

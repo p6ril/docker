@@ -1,0 +1,4 @@
+alias quit='cd ~ && cat /dev/null > ~/.bash_history && history -c && exit'
+alias ll='ls -AlF'
+alias mv='mv -v -i'
+alias vi='vim'
